@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sociallogindemo-staging-72313-authRole",
+      "UnauthRoleArn": "arn:aws:iam::257039356004:role/amplify-sociallogindemo-staging-72313-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::257039356004:role/amplify-sociallogindemo-staging-72313-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-sociallogindemo-staging-72313-deployment",
+      "UnauthRoleName": "amplify-sociallogindemo-staging-72313-unauthRole",
+      "StackName": "amplify-sociallogindemo-staging-72313",
+      "StackId": "arn:aws:cloudformation:eu-west-2:257039356004:stack/amplify-sociallogindemo-staging-72313/c9bb67c0-1f8f-11ed-aefa-02b7cbf731c8",
+      "AmplifyAppId": "d2hpoochbh2lan"
+    }
+  }
+}
