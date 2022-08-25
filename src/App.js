@@ -1,14 +1,30 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes ,Route } from 'react-router-dom';
 import './App.css';
-import { Login } from './components/login/login';
+import Login from './pages/login/login';
+import Dashboard from './pages/dashboard';
 
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <Login></Login>
-      </header>
+
+      <BrowserRouter>
+        <Routes>
+
+          <Route exact path="/auth" element={
+            <header className="App-header">
+              <Login />
+            </header>
+          }/>
+
+          <Route exact path="/" element={
+            <Dashboard />
+          }/>
+
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }
